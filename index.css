@@ -1,0 +1,67 @@
+body {
+  background-size: cover;
+    font-family: Arial, sans-serif;
+    background-image: url(haha.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+
+}
+.container {
+    height: 250px;
+    text-align: center;
+    background-image: url(giphy.webp);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);   
+    color: pink;
+    font-size: large;
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    border-radius: 20px;
+    transition-duration: 0.60s;
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    transition: scale(.95);
+    background-size: cover;
+}
+
+button {
+     
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    border-width: 4px;
+    border-style: solid;
+    margin-left: 35px;
+    font-size: 2pc;
+    color: lightgreen;
+    font-family: cursive;
+    font-weight: bolder;
+    cursor: pointer;
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    border-radius: 20px;
+    transition-duration: 0.60s;
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    transition: scale(.95);
+    background-size: cover;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#welcomeMessage {
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+}
